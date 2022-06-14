@@ -3,8 +3,20 @@ import './contact.css'
 import {MdOutlineMail} from 'react-icons/md'
 import {RiMessengerLine} from 'react-icons/ri'
 import {BsWhatsapp} from 'react-icons/bs'
+import  { useRef } from 'react';
+import emailjs from 'emailjs-com'
 
 const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_bu2i7jb', 'template_jl15wlk', form.current, 'YnrOvnScTtnQ_DFAx')
+
+      e.target.reset()
+  };
+
   return (
     <section id="contact">
       <h5>Get In Touch</h5>
@@ -16,27 +28,27 @@ const Contact = () => {
           <article className="contact__option">
             <MdOutlineMail className='contact__option-icon'/>
             <h4>Email</h4>
-            <h5>fakeEmail@gmail.com</h5>
-            <a href="mailto:fakeEmail@gmail.com" target='_blank'>Send a message </a>
+            <h5>strayfrozen@yahoo.com</h5>
+            <a href="mailto:strayfrozen@yahoo.com" target='_blank'>Send a message </a>
           </article>
 
           <article className="contact__option">
              <RiMessengerLine className='contact__option-icon' />
             <h4>Messenger</h4>
-            <h5>Messanger Name</h5>
+            <h5>Chris Langford</h5>
             <a href="https://m.me/chris.langford.3956/ target='_blank">Send a message </a>
           </article>
 
           <article className="contact__option">
             <BsWhatsapp className='contact__option-icon'/>
             <h4>WhatsApp</h4>
-            <h5>WhatsApp number</h5>
+            <h5>WhatsApp number currently unavailable</h5>
             <a href="https://api.whatsapp.com/send?phone+ target='_blank">Send a message </a>
           </article>
 
         </div>
         {/*END OF CONTACTz*/}
-        <form action="">
+        <form ref={form} onSubmit={sendEmail}>
           <input type="text" name='name' placeholder='Your Full Name' required />
           <input type="email" name='email' placeholder='Your Email' required />
           <textarea name="message" rows="7" placeholder='Your Message' required></textarea>

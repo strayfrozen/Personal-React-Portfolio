@@ -1,52 +1,52 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from '../../assets/coon.jpg'
-import IMG2 from '../../assets/coon.jpg'
-import IMG3 from '../../assets/coon.jpg'
-import IMG4 from '../../assets/coon.jpg'
-import IMG5 from '../../assets/coon.jpg'
-import IMG6 from '../../assets/coon.jpg'
+import IMG1 from '../../assets/runbuddy.png'
+import IMG2 from '../../assets/WorldWise.png'
+import IMG3 from '../../assets/PawParatzi.png'
+import IMG4 from '../../assets/Horizen.png'
+import IMG5 from '../../assets/passwordGenerator.png'
+import IMG6 from '../../assets/CodingQuiz.png'
 
 const data = [
   {
     id: 1,
     image: IMG1,
-    title: 'This is a portfolio item title',
+    title: 'Run Buddy',
     github: 'https://github.com/',
     demo: 'https://github.com/'
   },
   {
     id: 2,
     image: IMG2,
-    title: 'This is a portfolio item title',
+    title: 'WorldWise',
     github: 'https://github.com/',
     demo: 'https://github.com/'
   },
   {
     id: 3,
     image: IMG3,
-    title: 'This is a portfolio item title',
+    title: 'PawParatzi',
     github: 'https://github.com/',
     demo: 'https://github.com/'
   },
   {
     id: 4,
     image: IMG4,
-    title: 'This is a portfolio item title',
+    title: 'Horizen',
     github: 'https://github.com/',
     demo: 'https://github.com/'
   },
   {
     id: 5,
     image: IMG5,
-    title: 'This is a portfolio item title',
+    title: 'Password Generator',
     github: 'https://github.com/',
     demo: 'https://github.com/'
   },
   {
     id: 6,
     image: IMG6,
-    title: 'This is a portfolio item title',
+    title: 'Coding Quiz',
     github: 'https://github.com/',
     demo: 'https://github.com/'
   }
