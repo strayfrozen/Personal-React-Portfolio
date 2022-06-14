@@ -29,19 +29,21 @@ const About = () => {
 
             <article className='about__card'>
               <FiUsers className='about__icon' />
-              <h5>Clients</h5>
-              <small>300+</small>
+              <h5>School</h5>
+              <small>6 Month Boot Camp</small>
             </article>
 
             <article className='about__card'>
               <VscFolderLibrary className='about__icon' />
               <h5>Projects</h5>
-              <small>60+ Completed Projects</small>
+              <small>40+ Completed Projects</small>
             </article>
           </div>
 
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates cum quidem dolorem ipsum odit exercitationem debitis, sit aliquam officiis ad quos non facilis! Quaerat suscipit amet, nemo fuga dolore dolorum.
+          I'm a fullstack developer with a passion for Javasript as well as a coding enthusist.
+          Currently seeking employment coming from a background in the trade field. I would
+          make a great asset to any team and can adapte to any enviorment
           </p>
 
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
