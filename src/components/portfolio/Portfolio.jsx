@@ -12,43 +12,43 @@ const data = [
     id: 1,
     image: IMG1,
     title: 'Run Buddy',
-    github: 'https://github.com/',
-    demo: 'https://github.com/'
+    github: 'https://github.com/strayfrozen/run-buddy',
+    demo: 'https://strayfrozen.github.io/run-buddy/'
   },
   {
     id: 2,
     image: IMG2,
     title: 'WorldWise',
-    github: 'https://github.com/',
-    demo: 'https://github.com/'
+    github: 'https://github.com/strayfrozen/WorldWise',
+    demo: 'https://strayfrozen.github.io/WorldWise/'
   },
   {
     id: 3,
     image: IMG3,
     title: 'PawParatzi',
-    github: 'https://github.com/',
-    demo: 'https://github.com/'
+    github: 'https://github.com/beggsaj/project-2-pet-app',
+    demo: 'https://fathomless-tor-55582.herokuapp.com/'
   },
   {
     id: 4,
     image: IMG4,
     title: 'Horizen',
-    github: 'https://github.com/',
-    demo: 'https://github.com/'
+    github: 'https://github.com/strayfrozen/Horiseon',
+    demo: 'https://strayfrozen.github.io/Horiseon/'
   },
   {
     id: 5,
     image: IMG5,
     title: 'Password Generator',
-    github: 'https://github.com/',
-    demo: 'https://github.com/'
+    github: 'https://github.com/strayfrozen/PasswordGenerator',
+    demo: 'https://strayfrozen.github.io/PasswordGenerator/'
   },
   {
     id: 6,
     image: IMG6,
     title: 'Coding Quiz',
-    github: 'https://github.com/',
-    demo: 'https://github.com/'
+    github: 'https://github.com/strayfrozen/Coding-Quiz',
+    demo: 'https://strayfrozen.github.io/Coding-Quiz/'
   }
 
 
