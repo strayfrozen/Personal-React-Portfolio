@@ -12,7 +12,7 @@ const data = [
     id: 1,
     image: IMG1,
     title: 'Run Buddy',
-    github: 'https://github.com/strayfrozen/run-buddy',
+    github: 'https://strayfrozen.github.io/Run-buddy/',
     demo: 'https://strayfrozen.github.io/run-buddy/'
   },
   {
