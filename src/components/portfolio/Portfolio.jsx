@@ -5,7 +5,7 @@ import IMG2 from '../../assets/WorldWise.png'
 import IMG3 from '../../assets/PawParatzi.png'
 import IMG4 from '../../assets/Horizen.png'
 import IMG5 from '../../assets/passwordGenerator.png'
-import IMG6 from '../../assets/CodingQuiz.png'
+import IMG6 from '../../assets/git-it-done.png'
 
 const data = [
   {
@@ -46,9 +46,9 @@ const data = [
   {
     id: 6,
     image: IMG6,
-    title: 'Coding Quiz',
-    github: 'https://github.com/strayfrozen/Coding-Quiz',
-    demo: 'https://strayfrozen.github.io/Coding-Quiz/'
+    title: 'git-it-done',
+    github: 'https://github.com/strayfrozen/git-it-done',
+    demo: 'https://strayfrozen.github.io/git-it-done/'
   }
 
 
