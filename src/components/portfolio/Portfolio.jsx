@@ -4,7 +4,7 @@ import IMG1 from '../../assets/runbuddy.png'
 import IMG2 from '../../assets/WorldWise.png'
 import IMG3 from '../../assets/PawParatzi.png'
 import IMG4 from '../../assets/Horizen.png'
-import IMG5 from '../../assets/passwordGenerator.png'
+import IMG5 from '../../assets/noteTaker.png'
 import IMG6 from '../../assets/git-it-done.png'
 
 const data = [
@@ -39,9 +39,9 @@ const data = [
   {
     id: 5,
     image: IMG5,
-    title: 'Password Generator',
-    github: 'https://github.com/strayfrozen/PasswordGenerator',
-    demo: 'https://strayfrozen.github.io/PasswordGenerator/'
+    title: 'Note Taker',
+    github: 'https://github.com/strayfrozen/NoteTakerApp',
+    demo: 'https://peaceful-spire-48013.herokuapp.com/'
   },
   {
     id: 6,
